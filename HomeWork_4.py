@@ -2,30 +2,43 @@
 # на экран. (использовать цикл)
 
 
-try:
-    name = input("Enter your name: ")
-    lastName = input("Enter your last name: ")
-    yearOfBirth = input("Enter your year of birth: ")
 
-    letter = 0
-    numer = 0
+# name = input("Enter your name: ")
+# lastName = input("Enter your last name: ")
+# yearOfBirth = input("Enter your year of birth: ")
+#
+# letter = 0
+# numer = 0
+#
+# for i in name + lastName:
+#     letter += 1
+# print(f"Numer of letter: ", letter)
+#
+# for i in yearOfBirth:
+#     numer += 1
+# print(f"Numer of year of birth: ", numer)
 
-    for i in name + lastName:
-        letter += 1
-    print(f"Numer of letter: ", letter)
-
-    for i in yearOfBirth:
-        numer += 1
-    print(f"Numer of year of birth: ", numer)
-
-except Exception as error:
-    print(f"Exception occurred: {error}")
 
 
 
 # 2. Пользователь вводит с клавиатуры строку и символ для поиска. Посчитайте сколько раз в строке встречается искомый
 # символ. Полученное число выведите на экран.
 #
+
+line = input("Enter your sentence: ")
+symbol = input("Enter your symbol: ")
+
+num = 0
+
+for i in line:
+    if i == symbol:
+        num += 1
+print(f"The symbol is repeated {num} times")
+
+
+
+
+
 #
 #
 # 3. Пользователь вводит с клавиатуры строку, слово для поиска, слово для замены. Произведите в строке замену одного
