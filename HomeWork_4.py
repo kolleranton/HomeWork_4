@@ -3,20 +3,20 @@
 
 
 
-# name = input("Enter your name: ")
-# lastName = input("Enter your last name: ")
-# yearOfBirth = input("Enter your year of birth: ")
-#
-# letter = 0
-# numer = 0
-#
-# for i in name + lastName:
-#     letter += 1
-# print(f"Numer of letter: ", letter)
-#
-# for i in yearOfBirth:
-#     numer += 1
-# print(f"Numer of year of birth: ", numer)
+name = input("Enter your name: ")
+lastName = input("Enter your last name: ")
+yearOfBirth = input("Enter your year of birth: ")
+
+letter = 0
+numer = 0
+
+for i in name + lastName:
+    letter += 1
+print(f"Numer of letter: ", letter)
+
+for i in yearOfBirth:
+    numer += 1
+print(f"Numer of year of birth: ", numer)
 
 
 
@@ -25,15 +25,15 @@
 # символ. Полученное число выведите на экран.
 #
 
-# line = input("Enter your sentence: ")
-# symbol = input("Enter your symbol: ")
-#
-# num = 0
-#
-# for i in line:
-#     if i == symbol:
-#         num += 1
-# print(f"The symbol is repeated {num} times")
+line = input("Enter your sentence: ")
+symbol = input("Enter your symbol: ")
+
+num = 0
+
+for i in line:
+    if i == symbol:
+        num += 1
+print(f"The symbol is repeated {num} times")
 
 
 
@@ -41,12 +41,12 @@
 # слова на другое. Полученную строку отобразите на экране.
 
 
-# line = input("Enter you sentence: ")
-# word = input("Enter the word you want to replace: ")
-# newWord = input("Enter a new word: ")
-#
-# results = line.replace(word, newWord)
-# print(results)
+line = input("Enter you sentence: ")
+word = input("Enter the word you want to replace: ")
+newWord = input("Enter a new word: ")
+
+results = line.replace(word, newWord)
+print(results)
 
 
 
@@ -70,20 +70,20 @@
 #
 # - В девятой строке выведите длину данной строки.
 
-# sentence = "Things don't always work out the first time"
-# results = sentence[2:3]
-# print(results)
-# results = sentence[0:5]
-# print(results)
-# results = sentence[0:-2]
-# print(results)
-# results = sentence[0::2]
-# print(results)
-# results = sentence[1::2]
-# print(results)
-# results = sentence[::-1]
-# print(results)
-# results = sentence[::-2]
-# print(results)
-# results = len(sentence)
-# print(results)
+sentence = "Things don't always work out the first time"
+results = sentence[2:3]
+print(results)
+results = sentence[0:5]
+print(results)
+results = sentence[0:-2]
+print(results)
+results = sentence[0::2]
+print(results)
+results = sentence[1::2]
+print(results)
+results = sentence[::-1]
+print(results)
+results = sentence[::-2]
+print(results)
+results = len(sentence)
+print(results)
