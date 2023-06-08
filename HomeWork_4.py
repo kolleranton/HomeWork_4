@@ -41,26 +41,15 @@
 # слова на другое. Полученную строку отобразите на экране.
 
 
-line = input("Enter you sentence: ")
-word = input("Enter the word you want to replace: ")
-newWord = input("Enter a new word: ")
-
-a = line.find("word")
-
-results = line.replace("word", "newWord")
-print(results)
-
-
-
-
-
-
-
-
-
+# line = input("Enter you sentence: ")
+# word = input("Enter the word you want to replace: ")
+# newWord = input("Enter a new word: ")
 #
-#
-#
+# results = line.replace(word, newWord)
+# print(results)
+
+
+
 # 4. Дана строка. (сделать срезы)
 #
 # - Сначала выведите третий символ этой строки.
