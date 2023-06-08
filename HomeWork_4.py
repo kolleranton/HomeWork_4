@@ -25,24 +25,39 @@
 # символ. Полученное число выведите на экран.
 #
 
-line = input("Enter your sentence: ")
-symbol = input("Enter your symbol: ")
-
-num = 0
-
-for i in line:
-    if i == symbol:
-        num += 1
-print(f"The symbol is repeated {num} times")
-
-
-
-
-
+# line = input("Enter your sentence: ")
+# symbol = input("Enter your symbol: ")
 #
+# num = 0
 #
+# for i in line:
+#     if i == symbol:
+#         num += 1
+# print(f"The symbol is repeated {num} times")
+
+
+
 # 3. Пользователь вводит с клавиатуры строку, слово для поиска, слово для замены. Произведите в строке замену одного
 # слова на другое. Полученную строку отобразите на экране.
+
+
+line = input("Enter you sentence: ")
+word = input("Enter the word you want to replace: ")
+newWord = input("Enter a new word: ")
+
+a = line.find("word")
+
+results = line.replace("word", "newWord")
+print(results)
+
+
+
+
+
+
+
+
+
 #
 #
 #
