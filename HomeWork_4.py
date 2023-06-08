@@ -69,3 +69,21 @@
 # - В восьмой строке выведите все символы строки через один в обратном порядке, начиная с последнего.
 #
 # - В девятой строке выведите длину данной строки.
+
+# sentence = "Things don't always work out the first time"
+# results = sentence[2:3]
+# print(results)
+# results = sentence[0:5]
+# print(results)
+# results = sentence[0:-2]
+# print(results)
+# results = sentence[0::2]
+# print(results)
+# results = sentence[1::2]
+# print(results)
+# results = sentence[::-1]
+# print(results)
+# results = sentence[::-2]
+# print(results)
+# results = len(sentence)
+# print(results)
